@@ -7,13 +7,17 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+body {
+  background-image: url(./components/images/default.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100vh;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
-
-body {
-  background-image: url('./images/default.jpg')
 }
 
 img {
@@ -62,7 +66,6 @@ h1 {
 }
 #sun {
   font-size: 50px;
-  color: yellow;
   display: flex;
 }
 
